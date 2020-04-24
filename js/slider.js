@@ -10,7 +10,7 @@ function preLoad() {
     let n = 1;
     for(let i=0; i<imgs.length; i++){
         imgs[i] = new Image();
-        imgs[i].src = `../images/slider/slide${n}.jpg`;
+        imgs[i].src = `https://raw.githubusercontent.com/IgorCopa/Copa-Whitewater-Rafting/master/images/slider/slide${n}.jpg`;
         n++;
     }
 }

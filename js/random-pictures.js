@@ -4,7 +4,7 @@ function preLoad() {
     let number = Math.floor(Math.random()*5 + 1);
     let n = number;
     imgs = new Image();
-    imgs.src = `../images/slider/slide${n}.jpg`;
+    imgs.src = `https://raw.githubusercontent.com/IgorCopa/Copa-Whitewater-Rafting/master/images/slider/slide${n}.jpg`;
 }
 
 function loadImg(img){
