@@ -1,0 +1,5 @@
+@media (min-width: 32em) {
+    footer div:nth-child(2) p{
+        font-size: .9em;
+      }
+}

@@ -1,0 +1,47 @@
+@media (min-width: 62.5em) {
+    header #logo{
+        width: 100px;
+        height: 70px;
+    }
+
+    header .menu .hamburger{
+        display: none;
+    }
+
+    nav .hamburger-2 {
+        display: none;
+    }
+
+    header .menu nav{
+        position: absolute;
+        margin: 0 auto;
+        max-width: 62.5em;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%) !important;
+        transform-origin: none;
+        transition: none;
+        background-color: rgba(0, 0, 0, .4);
+        height: 234px;
+        justify-content: center;
+    }
+
+    nav ul{
+        flex-direction: row;
+        justify-self: flex-start;
+        top: -70px;
+        padding: 0;
+        height: auto;
+    }
+
+    nav ul li a {
+        font-size: 1.2em;
+        color: rgba(255, 255, 255);
+        text-shadow: 2px 0px 2px rgb(44, 44, 91),
+                    -2px 0px 2px rgb(44, 44, 91);
+    }
+
+    nav ul li a:hover {
+        color: rgba(255, 255, 255);
+    }
+}
